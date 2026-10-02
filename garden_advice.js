@@ -1,8 +1,10 @@
 // Hardcoded values for the season and plant type
 // Once prompt is added, it will ask the user for input.
 // Makes the app more interactive, and not one sided.
-let season = "summer"; // TODO: Replace with prompt() to allow user interaction.
-let plantType = "flower"; // TODO: Replace with prompt() to allow user interaction.
+let season = prompt(
+  "Hey there gardener of note! What season do you wish to checkout today?",
+); // TODO: Replace with prompt() to allow user interaction.
+let plantType = prompt("Hello Green Fingers, which plant is on your mind?"); // TODO: Replace with prompt() to allow user interaction.
 
 // Variable to hold gardening advice
 let advice = "";
